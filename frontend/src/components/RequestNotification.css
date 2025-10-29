@@ -1,0 +1,107 @@
+.request-notification-container {
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.request-notification-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.request-notification-header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.request-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.request-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+.request-item:last-child {
+  border-bottom: none;
+}
+
+.request-item:hover {
+  background: #f8f9fa;
+}
+
+.request-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.request-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.request-type {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.request-details {
+  font-size: 11px;
+  color: #666;
+}
+
+.request-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.request-actions button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-accept {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-accept:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+.btn-reject {
+  background: #f44336;
+  color: white;
+}
+
+.btn-reject:hover {
+  background: #da190b;
+  transform: scale(1.05);
+}
+
